@@ -35,7 +35,38 @@ scanner log stream events
 
 ![image](https://github.com/user-attachments/assets/706b476a-a4e8-46d6-a73d-dfede6519d4b)
 
-Lets connect AWS to Datadog (CloudWatch Integration)
+Lets connect AWS to Datadog (CloudWatch Integration). Go to Datadog dashboard and select linux
+
+![image](https://github.com/user-attachments/assets/b6f8f34c-017a-4c4b-ae4f-4365c3b6974e)
+
+Install Datadog agent in Ec2 instance
+
+![image](https://github.com/user-attachments/assets/72172614-30a7-4c11-b6c1-e075dd7efe82)
+
+Agent got connected Datadog UI
+
+![image](https://github.com/user-attachments/assets/9ece263f-1bbc-42bf-81e8-77baa1665ced)
+
+Instance connected to Datadaog
+
+![image](https://github.com/user-attachments/assets/234d33b6-ad72-4d8d-9e25-a83e4e4480fa)
+
+![image](https://github.com/user-attachments/assets/b7822a64-0655-4e59-b741-41a8bfa359b7)
+
+To push the logs from cloudwatch to datadog we need datadog forwarder. Used cloud formation to create datadog forwarder
+
+![image](https://github.com/user-attachments/assets/db5f3af4-72f9-46ef-8b8f-fc92e8ff303f)
+
+
+
+
+
+
+
+
+
+
+
 
 
 
