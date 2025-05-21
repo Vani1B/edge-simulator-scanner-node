@@ -1,5 +1,32 @@
 # edge-simulator-scanner-node
 
+# 📡 Edge Scanner Telemetry Monitoring with AWS & Datadog
+
+This project simulates a real-time edge computing scenario where barcode scanners (as edge devices) send telemetry data to a central system hosted on AWS. The telemetry is monitored using Datadog, with dashboards and alerts configured to ensure availability, performance, and proactive remediation.
+
+---
+
+## 🎯 Project Goals
+
+- Simulate edge scanner telemetry (e.g., scan count, failure rate, latency)
+- Ingest metrics into Datadog for real-time observability
+- Visualize scanner performance through dashboards
+- Set up alerting for scanner anomalies
+- Automate service restart if telemetry agent fails
+
+---
+
+## 🏗️ Architecture
+
+```text
+[Simulated Barcode Scanners]
+        |
+[Python Telemetry Generator]
+        |
+[AWS EC2 Instance with Datadog Agent]
+        |
+[Datadog Dashboard + Monitors]
+
 
 Launch Ec2 instance with type t2.micro
 
@@ -74,6 +101,11 @@ Metrics are showing
 Log explorer started working
 
 ![image](https://github.com/user-attachments/assets/3727b099-67bd-450e-bf75-def61a71e2f3)
+
+Infrasturcture is up
+
+![image](https://github.com/user-attachments/assets/498e26dd-c742-440f-83d9-e88740923b9c)
+
 
 create the custom Dashboard named it as scannerTelemetry Dashboard
 
