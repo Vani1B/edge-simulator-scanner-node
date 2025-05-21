@@ -16,6 +16,7 @@ This project simulates a real-time edge computing scenario where barcode scanner
 
 ---
 
+
 Launch Ec2 instance with type t2.micro
 
 ![image](https://github.com/user-attachments/assets/28f4656e-99f1-40ea-9866-4233366a521c)
