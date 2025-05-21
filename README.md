@@ -57,6 +57,47 @@ To push the logs from cloudwatch to datadog we need datadog forwarder. Used clou
 
 ![image](https://github.com/user-attachments/assets/db5f3af4-72f9-46ef-8b8f-fc92e8ff303f)
 
+Now in CloudWatch create subscription filter to connect Lambda. 
+
+![image](https://github.com/user-attachments/assets/dce4e35b-eefa-4ad7-89d8-8f05770d75db)
+
+Now go to Lambda, copy ARN and add the ARN to Datadag Integration
+
+![image](https://github.com/user-attachments/assets/6a4cf170-d09e-44fa-ba21-290b5620c6a1)
+
+![image](https://github.com/user-attachments/assets/26eb90d0-48e5-443e-bd87-1a1ad4518bc6)
+
+Metrics are showing
+
+![image](https://github.com/user-attachments/assets/7a0b9d3e-0c5a-47b0-824b-3f4893f3e9e2)
+
+Log explorer started working
+
+![image](https://github.com/user-attachments/assets/3727b099-67bd-450e-bf75-def61a71e2f3)
+
+create the custom Dashboard named it as scannerTelemetry Dashboard
+
+![image](https://github.com/user-attachments/assets/a00ca0a2-dc78-4fc9-ad77-9e30fc2af343)
+
+![image](https://github.com/user-attachments/assets/2704dc85-4893-4dca-9db1-cce24a5fd35f)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
