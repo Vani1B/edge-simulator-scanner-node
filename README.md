@@ -21,6 +21,32 @@ Now to push these logs to Aws cloud watch, attach IAM role to the instance
 
 ![image](https://github.com/user-attachments/assets/72a0466a-dd24-41af-a4a5-263758b65d9e)
 
+Change the python script to cloudwatch logs
+
+![image](https://github.com/user-attachments/assets/cf0bb618-3e8f-4841-995e-ec0dccc6191a)
+
+Now loginto Cloud watch log and go to log groups find scanner telemetry
+
+![image](https://github.com/user-attachments/assets/ea1ad26e-7e0f-4dfb-93a0-9c6a3ae6c7cf)
+
+![image](https://github.com/user-attachments/assets/acec960f-1771-4108-b760-96f27d66c12f)
+
+scanner log stream events
+
+![image](https://github.com/user-attachments/assets/706b476a-a4e8-46d6-a73d-dfede6519d4b)
+
+Lets connect AWS to Datadog (CloudWatch Integration)
+
+
+
+
+
+
+
+
+
+
+
 
 
 
